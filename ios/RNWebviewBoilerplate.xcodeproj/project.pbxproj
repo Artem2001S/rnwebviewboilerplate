@@ -12,8 +12,24 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.a */; };
+		545D4B967C77C6D35CBA3A6C /* libPods-WebviewAppDevTarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8657BF86F4040155ACE2B7E /* libPods-WebviewAppDevTarget.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B5184F4B9A6ADD1913AD516F /* libPods-WebviewAppProdTarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EADBC17BCF84E5FBA8CEE74 /* libPods-WebviewAppProdTarget.a */; };
+		E205416028B5049A00E8E0F1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		E205416128B5049A00E8E0F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		E205416528B5049A00E8E0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E205416628B5049A00E8E0F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		E205417028B5059400E8E0F1 /* DevelopmentInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205416F28B5059300E8E0F1 /* DevelopmentInfo.plist */; };
+		E205417128B5059400E8E0F1 /* DevelopmentInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205416F28B5059300E8E0F1 /* DevelopmentInfo.plist */; };
+		E205417628B5086700E8E0F1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		E205417728B5086700E8E0F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		E205417B28B5086700E8E0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E205417C28B5086700E8E0F1 /* DevelopmentInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205416F28B5059300E8E0F1 /* DevelopmentInfo.plist */; };
+		E205417D28B5086700E8E0F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		E205418728B508A700E8E0F1 /* ProductionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205418628B508A700E8E0F1 /* ProductionInfo.plist */; };
+		E205418828B508A700E8E0F1 /* ProductionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205418628B508A700E8E0F1 /* ProductionInfo.plist */; };
+		E205418928B508A700E8E0F1 /* ProductionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205418628B508A700E8E0F1 /* ProductionInfo.plist */; };
+		EE3E90E8D629F977C8B0E1F7 /* libPods-RNWebviewBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05C693FE3598E7F65087289 /* libPods-RNWebviewBoilerplateTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +46,31 @@
 		00E356EE1AD99517003FC87E /* RNWebviewBoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNWebviewBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNWebviewBoilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNWebviewBoilerplateTests.m; sourceTree = "<group>"; };
+		124E2772A38B3D77244E037B /* Pods-RNWebviewBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNWebviewBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNWebviewBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNWebviewBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNWebviewBoilerplate/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNWebviewBoilerplate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNWebviewBoilerplate/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNWebviewBoilerplate/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-RNWebviewBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNWebviewBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
+		58BE3B1B96DE6094C38FEA54 /* Pods-WebviewAppProdTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewAppProdTarget.release.xcconfig"; path = "Target Support Files/Pods-WebviewAppProdTarget/Pods-WebviewAppProdTarget.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-RNWebviewBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNWebviewBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2431A010E8765D4A5BACD1 /* Pods-WebviewAppDevTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewAppDevTarget.release.xcconfig"; path = "Target Support Files/Pods-WebviewAppDevTarget/Pods-WebviewAppDevTarget.release.xcconfig"; sourceTree = "<group>"; };
+		733A674957EA8A10122AA48B /* Pods-WebviewAppDevTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewAppDevTarget.debug.xcconfig"; path = "Target Support Files/Pods-WebviewAppDevTarget/Pods-WebviewAppDevTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		7EADBC17BCF84E5FBA8CEE74 /* libPods-WebviewAppProdTarget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebviewAppProdTarget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNWebviewBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		94633E0A728755C86F22E625 /* Pods-RNWebviewBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8657BF86F4040155ACE2B7E /* libPods-WebviewAppDevTarget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebviewAppDevTarget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB7316232D28EE1F2019399 /* Pods-WebviewAppProdTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewAppProdTarget.debug.xcconfig"; path = "Target Support Files/Pods-WebviewAppProdTarget/Pods-WebviewAppProdTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		E205416D28B5049A00E8E0F1 /* WebviewAppDevTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebviewAppDevTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E205416F28B5059300E8E0F1 /* DevelopmentInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DevelopmentInfo.plist; sourceTree = "<group>"; };
+		E205418428B5086700E8E0F1 /* WebviewAppProdTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebviewAppProdTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E205418628B508A700E8E0F1 /* ProductionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductionInfo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F05C693FE3598E7F65087289 /* libPods-RNWebviewBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNWebviewBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.a in Frameworks */,
+				EE3E90E8D629F977C8B0E1F7 /* libPods-RNWebviewBoilerplateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +87,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-RNWebviewBoilerplate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E205416228B5049A00E8E0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545D4B967C77C6D35CBA3A6C /* libPods-WebviewAppDevTarget.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E205417828B5086700E8E0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5184F4B9A6ADD1913AD516F /* libPods-WebviewAppProdTarget.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +129,14 @@
 		13B07FAE1A68108700A75B9A /* RNWebviewBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				E205416F28B5059300E8E0F1 /* DevelopmentInfo.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				E205418628B508A700E8E0F1 /* ProductionInfo.plist */,
 			);
 			name = RNWebviewBoilerplate;
 			sourceTree = "<group>";
@@ -100,8 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-RNWebviewBoilerplate.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.a */,
+				F05C693FE3598E7F65087289 /* libPods-RNWebviewBoilerplateTests.a */,
+				A8657BF86F4040155ACE2B7E /* libPods-WebviewAppDevTarget.a */,
+				7EADBC17BCF84E5FBA8CEE74 /* libPods-WebviewAppProdTarget.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,6 +179,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* RNWebviewBoilerplate.app */,
 				00E356EE1AD99517003FC87E /* RNWebviewBoilerplateTests.xctest */,
+				E205416D28B5049A00E8E0F1 /* WebviewAppDevTarget.app */,
+				E205418428B5086700E8E0F1 /* WebviewAppProdTarget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +192,12 @@
 				5709B34CF0A7D63546082F79 /* Pods-RNWebviewBoilerplate.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.release.xcconfig */,
+				94633E0A728755C86F22E625 /* Pods-RNWebviewBoilerplateTests.debug.xcconfig */,
+				124E2772A38B3D77244E037B /* Pods-RNWebviewBoilerplateTests.release.xcconfig */,
+				733A674957EA8A10122AA48B /* Pods-WebviewAppDevTarget.debug.xcconfig */,
+				5C2431A010E8765D4A5BACD1 /* Pods-WebviewAppDevTarget.release.xcconfig */,
+				CEB7316232D28EE1F2019399 /* Pods-WebviewAppProdTarget.debug.xcconfig */,
+				58BE3B1B96DE6094C38FEA54 /* Pods-WebviewAppProdTarget.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -159,8 +213,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +244,50 @@
 			name = RNWebviewBoilerplate;
 			productName = RNWebviewBoilerplate;
 			productReference = 13B07F961A680F5B00A75B9A /* RNWebviewBoilerplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E205415C28B5049A00E8E0F1 /* WebviewAppDevTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E205416A28B5049A00E8E0F1 /* Build configuration list for PBXNativeTarget "WebviewAppDevTarget" */;
+			buildPhases = (
+				E205415D28B5049A00E8E0F1 /* [CP] Check Pods Manifest.lock */,
+				E205415E28B5049A00E8E0F1 /* Start Packager */,
+				E205415F28B5049A00E8E0F1 /* Sources */,
+				E205416228B5049A00E8E0F1 /* Frameworks */,
+				E205416428B5049A00E8E0F1 /* Resources */,
+				E205416728B5049A00E8E0F1 /* Bundle React Native code and images */,
+				E205416828B5049A00E8E0F1 /* [CP] Embed Pods Frameworks */,
+				E205416928B5049A00E8E0F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebviewAppDevTarget;
+			productName = RNWebviewBoilerplate;
+			productReference = E205416D28B5049A00E8E0F1 /* WebviewAppDevTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E205417228B5086700E8E0F1 /* WebviewAppProdTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E205418128B5086700E8E0F1 /* Build configuration list for PBXNativeTarget "WebviewAppProdTarget" */;
+			buildPhases = (
+				E205417328B5086700E8E0F1 /* [CP] Check Pods Manifest.lock */,
+				E205417428B5086700E8E0F1 /* Start Packager */,
+				E205417528B5086700E8E0F1 /* Sources */,
+				E205417828B5086700E8E0F1 /* Frameworks */,
+				E205417A28B5086700E8E0F1 /* Resources */,
+				E205417E28B5086700E8E0F1 /* Bundle React Native code and images */,
+				E205417F28B5086700E8E0F1 /* [CP] Embed Pods Frameworks */,
+				E205418028B5086700E8E0F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebviewAppProdTarget;
+			productName = RNWebviewBoilerplate;
+			productReference = E205418428B5086700E8E0F1 /* WebviewAppProdTarget.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -226,6 +322,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* RNWebviewBoilerplate */,
 				00E356ED1AD99517003FC87E /* RNWebviewBoilerplateTests */,
+				E205415C28B5049A00E8E0F1 /* WebviewAppDevTarget */,
+				E205417228B5086700E8E0F1 /* WebviewAppProdTarget */,
 			);
 		};
 /* End PBXProject section */
@@ -243,7 +341,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				E205418728B508A700E8E0F1 /* ProductionInfo.plist in Resources */,
+				E205417028B5059400E8E0F1 /* DevelopmentInfo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E205416428B5049A00E8E0F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E205416528B5049A00E8E0F1 /* LaunchScreen.storyboard in Resources */,
+				E205418828B508A700E8E0F1 /* ProductionInfo.plist in Resources */,
+				E205417128B5059400E8E0F1 /* DevelopmentInfo.plist in Resources */,
+				E205416628B5049A00E8E0F1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E205417A28B5086700E8E0F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E205417B28B5086700E8E0F1 /* LaunchScreen.storyboard in Resources */,
+				E205418928B508A700E8E0F1 /* ProductionInfo.plist in Resources */,
+				E205417C28B5086700E8E0F1 /* DevelopmentInfo.plist in Resources */,
+				E205417D28B5086700E8E0F1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +418,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNWebviewBoilerplateTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -325,21 +447,182 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		E205415D28B5049A00E8E0F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebviewAppDevTarget-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E205415E28B5049A00E8E0F1 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E205416728B5049A00E8E0F1 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		E205416828B5049A00E8E0F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewAppDevTarget/Pods-WebviewAppDevTarget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewAppDevTarget/Pods-WebviewAppDevTarget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebviewAppDevTarget/Pods-WebviewAppDevTarget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E205416928B5049A00E8E0F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewAppDevTarget/Pods-WebviewAppDevTarget-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewAppDevTarget/Pods-WebviewAppDevTarget-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebviewAppDevTarget/Pods-WebviewAppDevTarget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E205417328B5086700E8E0F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebviewAppProdTarget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E205417428B5086700E8E0F1 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E205417E28B5086700E8E0F1 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		E205417F28B5086700E8E0F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewAppProdTarget/Pods-WebviewAppProdTarget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewAppProdTarget/Pods-WebviewAppProdTarget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebviewAppProdTarget/Pods-WebviewAppProdTarget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E205418028B5086700E8E0F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewAppProdTarget/Pods-WebviewAppProdTarget-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewAppProdTarget/Pods-WebviewAppProdTarget-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebviewAppProdTarget/Pods-WebviewAppProdTarget-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -357,23 +640,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -415,6 +681,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E205415F28B5049A00E8E0F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E205416028B5049A00E8E0F1 /* AppDelegate.mm in Sources */,
+				E205416128B5049A00E8E0F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E205417528B5086700E8E0F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E205417628B5086700E8E0F1 /* AppDelegate.mm in Sources */,
+				E205417728B5086700E8E0F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -428,7 +712,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.debug.xcconfig */;
+			baseConfigurationReference = 94633E0A728755C86F22E625 /* Pods-RNWebviewBoilerplateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -455,7 +739,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.release.xcconfig */;
+			baseConfigurationReference = 124E2772A38B3D77244E037B /* Pods-RNWebviewBoilerplateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -495,7 +779,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webview.app;
 				PRODUCT_NAME = RNWebviewBoilerplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -520,7 +804,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webview.app;
 				PRODUCT_NAME = RNWebviewBoilerplate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -662,6 +946,106 @@
 			};
 			name = Release;
 		};
+		E205416B28B5049A00E8E0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733A674957EA8A10122AA48B /* Pods-WebviewAppDevTarget.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DevelopmentInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.com.webview.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		E205416C28B5049A00E8E0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2431A010E8765D4A5BACD1 /* Pods-WebviewAppDevTarget.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = DevelopmentInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.com.webview.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		E205418228B5086700E8E0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB7316232D28EE1F2019399 /* Pods-WebviewAppProdTarget.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ProductionInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = prod.com.webview.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		E205418328B5086700E8E0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BE3B1B96DE6094C38FEA54 /* Pods-WebviewAppProdTarget.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ProductionInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = prod.com.webview.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -688,6 +1072,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E205416A28B5049A00E8E0F1 /* Build configuration list for PBXNativeTarget "WebviewAppDevTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E205416B28B5049A00E8E0F1 /* Debug */,
+				E205416C28B5049A00E8E0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E205418128B5086700E8E0F1 /* Build configuration list for PBXNativeTarget "WebviewAppProdTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E205418228B5086700E8E0F1 /* Debug */,
+				E205418328B5086700E8E0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

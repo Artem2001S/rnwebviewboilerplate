@@ -4,7 +4,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '11.0'
 install! 'cocoapods', :deterministic_uuids => false
 
-target 'RNWebviewBoilerplate' do
+def generic_target
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -19,10 +19,6 @@ target 'RNWebviewBoilerplate' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'RNWebviewBoilerplateTests' do
-    inherit! :complete
-    # Pods for testing
-  end
 
   # Enables Flipper.
   #
@@ -30,8 +26,27 @@ target 'RNWebviewBoilerplate' do
   # you should disable the next line.
   use_flipper!()
 
-  post_install do |installer|
-    react_native_post_install(installer)
-    __apply_Xcode_12_5_M1_post_install_workaround(installer)
-  end
 end
+
+target 'RNWebviewBoilerplate' do
+  generic_target
+end
+
+target 'WebviewAppDevTarget' do
+  generic_target
+end
+
+target 'WebviewAppProdTarget' do
+  generic_target
+end
+
+target 'RNWebviewBoilerplateTests' do
+  inherit! :complete
+  # Pods for testing
+end
+
+post_install do |installer|
+  react_native_post_install(installer)
+  __apply_Xcode_12_5_M1_post_install_workaround(installer)
+end
+
