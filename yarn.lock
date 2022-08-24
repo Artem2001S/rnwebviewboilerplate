@@ -3561,7 +3561,7 @@ internal-slot@^1.0.3:
     has "^1.0.3"
     side-channel "^1.0.4"
 
-invariant@*, invariant@2.2.4, invariant@^2.2.4:
+invariant@*, invariant@2.2.4, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -5676,6 +5676,13 @@ react-native-gradle-plugin@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz#b61a9234ad2f61430937911003cddd7e15c72b45"
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
+
+react-native-onesignal@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/react-native-onesignal/-/react-native-onesignal-4.4.1.tgz#c79c94ea8622012adcd3d1e36ba91be6fa126453"
+  integrity sha512-vbS0E2TO5KljT0l1nAce04aOZF6FLv9oUaliffhFQR92oTHAbwNmwwMpxZF6CIcNANDDKkYtKPw5h7baUxmQdw==
+  dependencies:
+    invariant "^2.2.2"
 
 react-native-safe-area-context@^4.3.3:
   version "4.3.3"

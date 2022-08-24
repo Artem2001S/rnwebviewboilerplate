@@ -28,7 +28,7 @@ def generic_target
 
 end
 
-target 'RNWebviewBoilerplate' do
+target 'WebViewApp' do
   generic_target
 end
 

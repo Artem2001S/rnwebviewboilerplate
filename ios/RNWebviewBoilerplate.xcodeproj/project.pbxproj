@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNWebviewBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNWebviewBoilerplateTests.m */; };
-		0C80B921A6F3F58F76C31292 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -30,6 +30,7 @@
 		E205418828B508A700E8E0F1 /* ProductionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205418628B508A700E8E0F1 /* ProductionInfo.plist */; };
 		E205418928B508A700E8E0F1 /* ProductionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205418628B508A700E8E0F1 /* ProductionInfo.plist */; };
 		EE3E90E8D629F977C8B0E1F7 /* libPods-RNWebviewBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05C693FE3598E7F65087289 /* libPods-RNWebviewBoilerplateTests.a */; };
+		EFE7661502F1DCEBC5EC7F5F /* libPods-WebViewApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5823EE81863DBF2FDE35CDD8 /* libPods-WebViewApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNWebviewBoilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNWebviewBoilerplateTests.m; sourceTree = "<group>"; };
 		124E2772A38B3D77244E037B /* Pods-RNWebviewBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		12F7A147F0ED030A3B0E1247 /* Pods-WebViewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewApp.debug.xcconfig"; path = "Target Support Files/Pods-WebViewApp/Pods-WebViewApp.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNWebviewBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNWebviewBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNWebviewBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNWebviewBoilerplate/AppDelegate.mm; sourceTree = "<group>"; };
@@ -54,7 +56,9 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNWebviewBoilerplate/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNWebviewBoilerplate/main.m; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNWebviewBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
+		5467035099D9A3163A7D5337 /* Pods-WebViewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewApp.release.xcconfig"; path = "Target Support Files/Pods-WebViewApp/Pods-WebViewApp.release.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNWebviewBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
+		5823EE81863DBF2FDE35CDD8 /* libPods-WebViewApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebViewApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BE3B1B96DE6094C38FEA54 /* Pods-WebviewAppProdTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewAppProdTarget.release.xcconfig"; path = "Target Support Files/Pods-WebviewAppProdTarget/Pods-WebviewAppProdTarget.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests/Pods-RNWebviewBoilerplate-RNWebviewBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C2431A010E8765D4A5BACD1 /* Pods-WebviewAppDevTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewAppDevTarget.release.xcconfig"; path = "Target Support Files/Pods-WebviewAppDevTarget/Pods-WebviewAppDevTarget.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* (null) in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */,
+				EFE7661502F1DCEBC5EC7F5F /* libPods-WebViewApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +153,7 @@
 				F05C693FE3598E7F65087289 /* libPods-RNWebviewBoilerplateTests.a */,
 				A8657BF86F4040155ACE2B7E /* libPods-WebviewAppDevTarget.a */,
 				7EADBC17BCF84E5FBA8CEE74 /* libPods-WebviewAppProdTarget.a */,
+				5823EE81863DBF2FDE35CDD8 /* libPods-WebViewApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,6 +204,8 @@
 				5C2431A010E8765D4A5BACD1 /* Pods-WebviewAppDevTarget.release.xcconfig */,
 				CEB7316232D28EE1F2019399 /* Pods-WebviewAppProdTarget.debug.xcconfig */,
 				58BE3B1B96DE6094C38FEA54 /* Pods-WebviewAppProdTarget.release.xcconfig */,
+				12F7A147F0ED030A3B0E1247 /* Pods-WebViewApp.debug.xcconfig */,
+				5467035099D9A3163A7D5337 /* Pods-WebViewApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -392,15 +400,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewApp/Pods-WebViewApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewApp/Pods-WebViewApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebViewApp/Pods-WebViewApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -440,7 +448,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RNWebviewBoilerplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WebViewApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -631,15 +639,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewApp/Pods-WebViewApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewApp/Pods-WebViewApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNWebviewBoilerplate/Pods-RNWebviewBoilerplate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebViewApp/Pods-WebViewApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -763,7 +771,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNWebviewBoilerplate.debug.xcconfig */;
+			baseConfigurationReference = 12F7A147F0ED030A3B0E1247 /* Pods-WebViewApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -789,7 +797,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNWebviewBoilerplate.release.xcconfig */;
+			baseConfigurationReference = 5467035099D9A3163A7D5337 /* Pods-WebViewApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
