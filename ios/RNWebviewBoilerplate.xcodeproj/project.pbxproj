@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNWebviewBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNWebviewBoilerplateTests.m */; };
-		0C80B921A6F3F58F76C31292 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -29,6 +29,9 @@
 		E205418728B508A700E8E0F1 /* ProductionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205418628B508A700E8E0F1 /* ProductionInfo.plist */; };
 		E205418828B508A700E8E0F1 /* ProductionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205418628B508A700E8E0F1 /* ProductionInfo.plist */; };
 		E205418928B508A700E8E0F1 /* ProductionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E205418628B508A700E8E0F1 /* ProductionInfo.plist */; };
+		E28FA46428B65D6600B259C2 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28FA46328B65D6600B259C2 /* BootSplash.storyboard */; };
+		E28FA46528B65D6600B259C2 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28FA46328B65D6600B259C2 /* BootSplash.storyboard */; };
+		E28FA46628B65D6600B259C2 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28FA46328B65D6600B259C2 /* BootSplash.storyboard */; };
 		EE3E90E8D629F977C8B0E1F7 /* libPods-RNWebviewBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05C693FE3598E7F65087289 /* libPods-RNWebviewBoilerplateTests.a */; };
 		EFE7661502F1DCEBC5EC7F5F /* libPods-WebViewApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5823EE81863DBF2FDE35CDD8 /* libPods-WebViewApp.a */; };
 /* End PBXBuildFile section */
@@ -73,6 +76,7 @@
 		E205416F28B5059300E8E0F1 /* DevelopmentInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DevelopmentInfo.plist; sourceTree = "<group>"; };
 		E205418428B5086700E8E0F1 /* WebviewAppProdTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebviewAppProdTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E205418628B508A700E8E0F1 /* ProductionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductionInfo.plist; sourceTree = "<group>"; };
+		E28FA46328B65D6600B259C2 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = RNWebviewBoilerplate/BootSplash.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F05C693FE3598E7F65087289 /* libPods-RNWebviewBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNWebviewBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* (null) in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */,
 				EFE7661502F1DCEBC5EC7F5F /* libPods-WebViewApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +141,7 @@
 				E205416F28B5059300E8E0F1 /* DevelopmentInfo.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				E28FA46328B65D6600B259C2 /* BootSplash.storyboard */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -348,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28FA46428B65D6600B259C2 /* BootSplash.storyboard in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				E205418728B508A700E8E0F1 /* ProductionInfo.plist in Resources */,
 				E205417028B5059400E8E0F1 /* DevelopmentInfo.plist in Resources */,
@@ -359,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28FA46528B65D6600B259C2 /* BootSplash.storyboard in Resources */,
 				E205416528B5049A00E8E0F1 /* LaunchScreen.storyboard in Resources */,
 				E205418828B508A700E8E0F1 /* ProductionInfo.plist in Resources */,
 				E205417128B5059400E8E0F1 /* DevelopmentInfo.plist in Resources */,
@@ -370,6 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28FA46628B65D6600B259C2 /* BootSplash.storyboard in Resources */,
 				E205417B28B5086700E8E0F1 /* LaunchScreen.storyboard in Resources */,
 				E205418928B508A700E8E0F1 /* ProductionInfo.plist in Resources */,
 				E205417C28B5086700E8E0F1 /* DevelopmentInfo.plist in Resources */,
