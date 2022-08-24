@@ -1,3 +1,4 @@
+import {config} from '@/config';
 import {
   handleMessagesFromReactNativeOnWebPage,
   sendMessageFromWebPageToReactNative,
@@ -19,8 +20,9 @@ const html = `
     <script>
       ${handleMessagesFromReactNativeOnWebPage}
       ${sendMessageFromWebPageToReactNative}
-    </script>
-    <h1>React Native Webview</h1>
+      </script>
+      <h1>React Native Webview</h1>
+      <h1>IS Production = ${JSON.stringify(config)}</h1>
     </body>
   </html>
 `;

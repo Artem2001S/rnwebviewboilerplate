@@ -7,7 +7,11 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "android:dev": "ENVFILE=.env.development react-native run-android --variant=developmentDebug --appId=com.webviewapp.dev",
+    "android:production": "ENVFILE=.env.production react-native run-android --variant=productionRelease --appId=com.webviewapp.prod",
+    "android:build:dev": "cd android && ENVFILE=.env.development ./gradlew assembleDevelopmentRelease && cd ..",
+    "android:build:production": "cd android && ENVFILE=.env.production ./gradlew assembleProductionRelease && cd .."
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.11",
