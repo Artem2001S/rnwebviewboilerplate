@@ -151,10 +151,10 @@ android {
             resValue "string", "build_config_package", "com.rnwebviewboilerplate"
             resValue "string", "app_name", "Webview Production"
 
-            // manifestPlaceholders = [
-            //     // appIcon: "@mipmap/ic_launcher",
-            //     // appIconRound: "@mipmap/ic_launcher_round"
-            // ]
+            manifestPlaceholders = [
+                appIcon: "@mipmap/ic_launcher_prod",
+                appIconRound: "@mipmap/ic_launcher_prod_round"
+            ]
         }
         development {
             dimension "default"
@@ -162,10 +162,10 @@ android {
             resValue "string", "build_config_package", "com.rnwebviewboilerplate"
             resValue "string", "app_name", "Webview Development"
 
-            // manifestPlaceholders = [
-            //     // appIcon: "@mipmap/ic_launcher_test",
-            //     // appIconRound: "@mipmap/ic_launcher_test_round"
-            // ]
+            manifestPlaceholders = [
+                appIcon: "@mipmap/ic_launcher_dev",
+                appIconRound: "@mipmap/ic_launcher_round"
+            ]
         }
     }
 
