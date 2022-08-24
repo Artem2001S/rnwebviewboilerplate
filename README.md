@@ -2,7 +2,7 @@
 
 ### Шаблон содержит
 
-- Подключены и настроены библиотеки (навигация, webview, env переменные)
+- Подключены и настроены библиотеки (навигация, webview, env переменные, OneSignal)
 - Два варианта сборки приложения production/development
 
 #### Настройка окружения
@@ -72,5 +72,12 @@ $ yarn // установка npm пакетов
 
     resValue "string", "app_name", "Webview Production"
 
-> Параметр `app_name` подставляется в `AndroidManifest.xml`
-> `android:label="@string/app_name"`
+> Параметр `app_name` подставляется в `AndroidManifest.xml` > `android:label="@string/app_name"`
+
+### OneSignal
+
+Настройка OneSignal для андроид выполнена. Необходимо создать проект в OneSignal и получить app id, изменить app id в `.env` файлах
+
+[Инструкция по добавлению OneSignal SDK для iOS + Android](https://documentation.onesignal.com/docs/react-native-sdk-setup)
+
+[Инструкция по настройке OneSignal для Андроид](https://documentation.onesignal.com/docs/generate-a-google-server-api-key)
