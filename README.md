@@ -1,15 +1,21 @@
 # rn-webview-boilerplate
 
+## Содержание
+
+- [Установка проекта](#OneSignal)
+
 ### Шаблон содержит
 
-- Подключены и настроены библиотеки (навигация, webview, env переменные, OneSignal)
+- Подключены и настроены библиотеки (навигация, webview, env переменные, one signal)
 - Два варианта сборки приложения production/development
 
 #### Настройка окружения
 
-Для запуска проекта необходимо настроить окружение, [статья из офф. документации](https://reactnative.dev/docs/environment-setup)
+Для запуска проекта необходимо настроить окружение, см [статью из офф. документации.](https://reactnative.dev/docs/environment-setup)
 
-Обратите внимание на настройку ANDROID_SDK_ROOT, если путь к ANDROID_SDK_ROOT настроен через терминал bash, то проект следует запускать через bash. Если zsh - запуск через zsh.
+> Важно - если путь к ANDROID_SDK_ROOT настроен через
+> терминал bash, то проект следует запускать через bash. Если zsh -
+> запуск через zsh.
 
 ## Запуск проекта, типы сборок (prod/dev)
 
@@ -39,7 +45,7 @@ $ cd ios && pod install && cd .. // установка pod файлов (для 
 
 - разные `.env` файлы (перед запуском проекта выполняется скрипт, который записывает в файл `.env` данные из `.env.development` или `.env.production`
 - разные .plist файлы
-  > Важно: при изменении .plist файлов (например: добавление доступа к камере) - необходимо внести изменения во всех .plist файлах - `DevelopmentInfo.plist`, `ProductionInfo.plist` и `Info.plist`
+  > Важно: при изменении .plist файлов (например: добавление доступа к камере) - необходимо внести изменения во все .plist файлы - `DevelopmentInfo.plist`, `ProductionInfo.plist` и `Info.plist`
 
 При необходимости можно задать разные иконки/splash скрины для разных типов сборок, для этого необходимо изменить нужный .plist файл или таргет [Изменение иконки/splash screen'а](https://monosnap.com/file/J85IhyKaBd6wZGobOESpTFEKm7zBIo)
 
@@ -65,14 +71,15 @@ $ yarn // установка npm пакетов
         release: '.env.production',
     ]
 
-Настройки названия и id приложения находятся в этом же файле, параметр `productFlavors`, который содержи две конфигурации (production & development)
+Настройки названия и id приложения находятся в этом же файле, параметр `productFlavors`, который содержит две конфигурации (production & development)
 
 Чтобы изменить id приложения, необходимо изменить параметр `applicationId`.
 Для изменения названия приложения, необходимо изменить параметр
 
     resValue "string", "app_name", "Webview Production"
 
-> Параметр `app_name` подставляется в `AndroidManifest.xml` > `android:label="@string/app_name"`
+> Параметр `app_name` подставляется в `AndroidManifest.xml`
+> `android:label="@string/app_name"`
 
 ### OneSignal
 
@@ -81,3 +88,114 @@ $ yarn // установка npm пакетов
 [Инструкция по добавлению OneSignal SDK для iOS + Android](https://documentation.onesignal.com/docs/react-native-sdk-setup)
 
 [Инструкция по настройке OneSignal для Андроид](https://documentation.onesignal.com/docs/generate-a-google-server-api-key)
+
+### WebView
+
+[Докуменатация react-native-webview](https://github.com/react-native-webview/react-native-webview/blob/master/docs/Guide.md)
+
+В файле `webviewExamples.js` пример отправки сообщения с веб-страницы на WebView (приложение)
+
+> window.ReactNativeWebView.postMessage("Hello!");
+
+и наоборот, обработка на веб-странице сообщений, полученных от WebView (приложения)
+
+> `document.addEventListener("message", function (event) { alert('get message from mobile app') });`
+
+Получение сообщений от веб-страницы в моб. приложении:
+
+```
+<WebView
+	...
+	onMessage={(event) => {
+		console.log('Get from web page:',  event.nativeEvent.data); // "Hello!"
+	}}
+/>
+```
+
+#### Загрузка файлов через WebView
+
+Для загрузки файлов необходимо запросить у пользователя доступы
+
+[Инструкция по добавлению разрешений в AndroidManifest.xml и .plist файлы](https://github.com/react-native-webview/react-native-webview/blob/master/docs/Guide.md#add-support-for-file-upload)
+
+### Изменение иконок приложения
+
+Для разных типов сборок заданы разные иконки приложения.
+
+#### iOS
+
+[Расположение иконки iOS приложения в XCode](https://monosnap.com/file/DTJtyjRYTJgvXlJ3b4tHbXHZtNeKz8)
+Где выбрать нужную иконку - см. [Изменение иконки/splash screen'а](https://monosnap.com/file/J85IhyKaBd6wZGobOESpTFEKm7zBIo)
+
+Для генерации иконки iOS приложения можно воспользоваться сервисом [app icon generator](https://appicon.co/).
+
+#### Android
+
+Иконка задается в файле `android/app/build.gradle`
+
+```
+productFlavors {
+	production {
+		manifestPlaceholders = [
+			appIcon: "@mipmap/ic_launcher_prod",
+			appIconRound: "@mipmap/ic_launcher_prod_round"
+		]
+	}
+....
+}
+```
+
+Переменные `appIcon` и `appIconRound` подставляются в `AndroidManifest.xml`
+
+```
+<application
+	android:name=".MainApplication"
+	android:label="@string/app_name"
+	android:icon="${appIcon}"
+	android:roundIcon="${appIconRound}"
+	.....
+```
+
+[Инструкция по добавлению новой иконки](https://developer.android.com/codelabs/basic-android-kotlin-training-change-app-icon#5)
+
+#### Splash screen
+
+Документация [react-native-bootsplash (v3.2.6)](https://github.com/zoontek/react-native-bootsplash/tree/3.2.6)
+При необходимости можно сделать разные сплэш скрины для прод/тест сборок по аналогии с иконкой приложения.
+
+## Сборка проекта для выгрузки в Google Play Console / TestFlight
+
+### Подготовка
+
+#### Android
+
+Необходимо сгенерировать ключ подписи приложения.
+[Подробная инструкция по генерации ключа](https://reactnative.dev/docs/signed-apk-android)
+
+#### iOS
+
+[Документация Apple](https://developer.apple.com/documentation/xcode/preparing-your-app-for-distribution)
+Необходимо добавить в XCode аккаунт разработчика, создать и скачать сертификаты Development и Distribution (через App Store Connect).
+
+Выставить `Bundle Identifier` (раздел `General` из настроек выбранного таргета в XCode), который был указан при создании приложения в App Store Connect
+
+### Сборка
+
+#### iOS
+
+1. Выбрать нужную схему (прод/тест)
+2. Перед каждой новой сборкой необходимо изменить `Build Number` (раздел `General` из настроек выбранного таргета в XCode)
+   Например, если номер текущей сборки 12, то следует изменить номер сборки на 13.
+3. Выбрать устройство для сборки `"Any iOS Device"` из списка эмуляторов)
+4. Выбрать в меню XCode `Product -> Archive`
+5. Далее загружаем созданный [билд по инструкции](https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases)
+
+#### Android
+
+1. Изменить номер сборки и версию (файл `android/app/build.gradle`)
+2. Открыть проект в Android Studio
+3. Выбрать в меню Build -> Generate Signed Bundle / APK
+4. В появившемся окне выбрать "Android App Bundle"
+5. Выбрать сгенерированный ключ подписи, заполнить поля (пароль, alias и тп), нажать далее
+6. Выбрать нужный тип сборки
+7. Файл формата .aab можно загружать в Google Play Console
