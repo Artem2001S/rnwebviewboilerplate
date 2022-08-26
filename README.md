@@ -2,8 +2,6 @@
 
 ## Содержание
 
-- [Установка проекта](#OneSignal)
-
 ### Шаблон содержит
 
 - Подключены и настроены библиотеки (навигация, webview, env переменные, one signal)
@@ -78,8 +76,7 @@ $ yarn // установка npm пакетов
 
     resValue "string", "app_name", "Webview Production"
 
-> Параметр `app_name` подставляется в `AndroidManifest.xml`
-> `android:label="@string/app_name"`
+> Параметр `app_name` подставляется в `AndroidManifest.xml` > `android:label="@string/app_name"`
 
 ### OneSignal
 
